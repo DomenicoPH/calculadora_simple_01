@@ -3,6 +3,7 @@ import Display from "./Display";
 import PanelDeBotones from "./PanelDeBotones"
 import operaciones from "../logic/operaciones";
 import 'tailwindcss/tailwind.css';
+import './special.css'
 
 class App extends Component {
 

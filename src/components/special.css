@@ -1,3 +1,6 @@
 .special {
-    background-color: rgb(218, 88, 33) !important;
+    background-color: rgb(220, 58, 29) !important;
+}
+.special:hover {
+    background-color: rgb(247, 82, 53) !important;
 }
