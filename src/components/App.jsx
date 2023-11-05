@@ -16,11 +16,15 @@ class App extends Component {
 
   render() {
     return (
-      <div>
-        <div className="flex flex-col items-center border border-black max-w-[306px]">
+      <div className="min-h-[100vh] bg-gray-700 flex justify-center items-center">
+
+        {/* Calculadora */}
+        <div className="bg-gray-500 flex flex-col items-center border border-black max-w-[306px]">
           <Display value={this.state.siguiente || this.state.total || "0"} />
           <PanelDeBotones clickHandler={this.handleClick} />
         </div>
+        {/* Calculadora */}
+
       </div>
     )
   }

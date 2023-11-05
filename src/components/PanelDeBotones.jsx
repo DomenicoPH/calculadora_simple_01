@@ -1,5 +1,6 @@
 import Boton from "./Boton.jsx";
 import logo from "../assets/icon.png"
+import './special.css'
 
 const container = 'flex flex-col p-[2px]'
 const set = 'flex'
@@ -37,7 +38,7 @@ export default function panelDeBotones ({clickHandler}) {
                 <Boton name="0" clickHandler={handleClick} />
                 <Boton name="." clickHandler={handleClick} />
                 <Boton name="=" clickHandler={handleClick} />
-                <div className="border max-h-[75px] bg-gray-400"><img className="p-[10px]" src={logo} alt="logo" /></div>
+                <div className="special border max-h-[75px] bg-gray-400"><img className="p-[10px]" src={logo} alt="logo" /></div>
             </div>
         </div>
     )
