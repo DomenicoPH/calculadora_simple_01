@@ -25,3 +25,5 @@ Siéntete libre de contribuir a este proyecto. Puedes reportar problemas, sugeri
 Este proyecto está bajo la Licencia MIT. Siéntete libre de utilizar, modificar y distribuir el código de acuerdo con los términos de la licencia.
 
 ¡Gracias por calcular!
+
+![Texto alternativo](demo.png)
